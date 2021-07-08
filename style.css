@@ -1,10 +1,88 @@
+@import url("https://usetypekit.net/hod3jva.css%22");
+
 body {
+    width: 65%;
+    margin: 0 auto;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    width: 80%;
     margin: 0 auto;
 }
 
 .menuContainer{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    /*flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 65%;
+    overflow: hidden;
 }
+  
+.menu {
+    top: 30px;
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+}
+
+.menu a{
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+.menu a:hover, .subnav:hover {
+    color: red;
+}
+
+.subnav {
+    position: relative;
+    top: 20px;
+}
+
+.subnavContent {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  /* Style the subnav links */
+.subnavContent a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add a grey background color on hover */
+.subnavContent a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnavContent {
+    display: block;
+  }
+
+.workGrid{
+    margin: 0 auto;
+}
+.workGrid img{
+    
+    padding: 30px;
+}
+
+#intro {
+    margin: 0 auto;
+    text-align: center;
+}
+
 
