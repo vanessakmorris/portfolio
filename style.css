@@ -1,11 +1,13 @@
 @import url("https://usetypekit.net/hod3jva.css%22");
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,500;0,600;1,500;1,600&family=Patrick+Hand&display=swap');
 
 body {
-    width: 65%;
+    width: 100%;
     margin: 0 auto;
-    font-family: sofia-pro, sans-serif;
+    font-family: 'Patrick Hand', cursive;
     font-weight: 400;
     font-style: normal;
+    background-color: #fff8d8;
 }
 
 main {
@@ -13,6 +15,10 @@ main {
     margin: 0 auto;
 }
 
+h1 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 80px;
+}
 
 .menuContainer{
     display: flex;
@@ -20,10 +26,12 @@ main {
     /*flex-wrap: wrap; */
     justify-content: space-evenly;
     align-items: baseline;
-    width: 65%;
-    overflow: hidden;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 30px; 
+    background-color: #ffbf00;
+    z-index: 9999;
+    font-size: 25px;
 }
 
 .menu {
@@ -36,11 +44,12 @@ main {
 .menu a{
     padding: 20px;
     text-decoration: none;
+    color: #fff8d8;
 }
 
 
 .menu a:hover, .subnav:hover {
-    color: red;
+    opacity: 0.7;
 }
 
 .subnav {
@@ -52,9 +61,9 @@ main {
     display: none;
     position: absolute;
     left: 0;
-    background-color: red;
+    background-color: rgb(241, 84, 19, 0.8);
     width: 100%;
-    z-index: 1;
+    z-index: 9999;
   }
   
   /* Style the subnav links */
@@ -66,17 +75,18 @@ main {
   
   /* Add a grey background color on hover */
 .subnavContent a:hover {
-    background-color: #eee;
-    color: black;
+    color: #fff8d8;
   }
   
   /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnavContent {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
 .workGrid{
     margin: 0 auto;
+    width: 65%;
 }
 .workGrid img{
     padding: 30px;
@@ -86,15 +96,32 @@ main {
     opacity: 0.4;
 }
 
+#active {
+    color: #f15413;
+}
+
 #logo {
+    font-family: 'Patrick Hand', cursive;
     text-decoration: none;
     font-size: 5rem;
+    color: #fff8d8;
+}
 
+#vM{
+    position: relative;
+    top: -30px;
+    font-size: 24px;
+}
+
+#email {
+    color: #fff8d8;
 }
 
 #intro {
     margin: 0 auto;
     text-align: center;
+    margin-top: 150px;
+    color: #f15413;
 }
 
 #text {
