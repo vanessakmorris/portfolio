@@ -114,7 +114,8 @@ footer h3{
 }
 .workGrid img{
     padding: 30px;
-    -webkit-filter: brightness(75%);
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -123,7 +124,8 @@ footer h3{
 }
 
 .workGrid img:hover {
-    -webkit-filter: brightness(100%);
+    filter: brightness(60%);
+    -webkit-filter: brightness(60%);
 }
 
 .picContainer{
