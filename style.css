@@ -20,6 +20,14 @@ h1 {
     font-size: 80px;
 }
 
+footer{
+ padding: 40px;
+}
+
+footer h3{
+    margin: 0 auto;
+    text-align: center;
+}
 .menuContainer{
     display: flex;
     flex-direction: row;
@@ -87,6 +95,8 @@ h1 {
 .workGrid{
     margin: 0 auto;
     width: 65%;
+    position: relative;
+    /* left: 10%; */
 }
 .workGrid img{
     padding: 30px;
@@ -95,6 +105,19 @@ h1 {
 .workGrid img:hover {
     opacity: 0.4;
 }
+
+.footerGrid{
+    width: 65%;
+    margin: 0 auto;
+    position: absolute;
+    left: 47%;
+}
+
+.footerGrid img{
+    width: 30px;
+}
+
+
 
 #active {
     color: #f15413;
