@@ -7,7 +7,7 @@ body {
     font-family: 'Patrick Hand', cursive;
     font-weight: 400;
     font-style: normal;
-    background-color: #fff8d8;
+    background-color: #ffbf00;
 }
 
 main {
@@ -37,7 +37,6 @@ footer h3{
     width: 95%;
     margin: 0 auto;
     margin-bottom: 30px; 
-    background-color: #ffbf00;
     z-index: 9999;
     font-size: 25px;
 }
@@ -57,7 +56,7 @@ footer h3{
 
 
 .menu a:hover, .subnav:hover {
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .subnav {
@@ -69,7 +68,7 @@ footer h3{
     display: none;
     position: absolute;
     left: 0;
-    background-color: rgb(241, 84, 19, 0.8);
+    background-color: rgb(98, 162, 197, .91);
     width: 100%;
     z-index: 9999;
   }
@@ -143,7 +142,6 @@ footer h3{
 #intro {
     margin: 0 auto;
     text-align: center;
-    margin-top: 150px;
     color: #f15413;
 }
 
