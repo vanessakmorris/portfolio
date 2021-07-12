@@ -55,7 +55,9 @@ footer h3{
     top: 30px;
     flex: 1;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    position: relative;
+    left: -20px; 
 }
 
 .menu a{
@@ -108,7 +110,7 @@ footer h3{
     margin: 0 auto;
     width: 65%;
     position: relative;
-    /* left: 10%; */
+    left: 30px;
 }
 .workGrid img{
     padding: 30px;
