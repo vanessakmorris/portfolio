@@ -311,7 +311,7 @@ button:active{
 
 .contactGrid{
     display: grid;
-    grid-template-columns: .5fr 1fr .5fr;
+    grid-template-columns: .75fr 2fr;
 }
 
 .footerGrid{
