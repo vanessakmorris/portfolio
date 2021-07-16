@@ -189,6 +189,28 @@ button:active{
     text-align: center;
 }
 
+.aboutGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10%;
+    margin-top: 12%;
+}
+
+.aboutGrid a{
+    text-decoration: none;
+    color: #222222;
+    border: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color:#CCE8CC;
+}
+
+.aboutGrid a:active{
+    color: #000;
+    background-color: #ffe085;
+    border-color: rgb(98, 162, 197);
+}
+
 .text1 {
     color: #fff8d8;
     opacity: 1;
