@@ -34,6 +34,10 @@ footer{
  padding: 40px;
 }
 
+footer a{
+    text-align: center;
+    text-decoration: none;
+}
 footer h3{
     margin: 0 auto;
     text-align: center;
@@ -77,8 +81,12 @@ button{
     border-radius: 10px;
     border-color: rgb(98, 162, 197);
     background-color: #fff8d8;
+    cursor: pointer;
 }
 
+button:hover{
+    background-color: #f15413;
+}
 
 button:active{
     color: #fff8d8;
@@ -322,7 +330,7 @@ button:active{
     margin-top: 85px;
     margin-bottom: 40px;;    
 }
-
+/*
 #lightboxBg {
     position: fixed;
     z-index: 150;
@@ -330,12 +338,12 @@ button:active{
     width: 100%;
     height: 100%;
 
-}
+} 
 
 #lightboxBg.active {
     display: grid;
     place-items: center;
-}
+} */
 
 #ig {
     position: relative;
