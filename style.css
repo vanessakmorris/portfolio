@@ -309,6 +309,10 @@ button:active{
     object-position: center center;
 }
 
+.imgMiddle{
+    width: 600px;
+}
+
 .contactGrid{
     display: grid;
     grid-template-columns: .75fr 2fr;
