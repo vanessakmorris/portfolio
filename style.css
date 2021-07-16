@@ -286,7 +286,7 @@ button:active{
 }
 
 .stopGridA{
-    width: 100%;
+    width: 65%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -294,7 +294,7 @@ button:active{
 }
 
 .stopGridB {
-    width: 100%;
+    width: 65%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
