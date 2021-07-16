@@ -257,7 +257,7 @@ button:active{
 
 
 .digiGrid{
-    width: 100%;
+    width: 65%;
     margin: 0 auto;
     display: grid;
     grid-template-rows: 1fr 1fr;
