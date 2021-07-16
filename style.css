@@ -199,6 +199,10 @@ button:active{
     margin-top: 12%;
 }
 
+.aboutGrid img{
+    width: 400px;
+}
+
 .aboutGrid a{
     text-decoration: none;
     color: #222222;
