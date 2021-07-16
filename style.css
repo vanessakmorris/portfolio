@@ -248,7 +248,7 @@ button:active{
     text-align: center;
 }
 
-.tradGrid img, .digiGrid img, .stopGrid img, .animGrid img{
+.tradGrid img, .digiGrid img, .stopGrid iframe, .animGrid img{
     margin-bottom: 50px;
 }
 
