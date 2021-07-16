@@ -211,6 +211,10 @@ button:active{
     border-color: rgb(98, 162, 197);
 }
 
+.aboutGrid p{
+    font-size: 20px;
+}
+
 .text1 {
     color: #fff8d8;
     opacity: 1;
@@ -375,4 +379,8 @@ button:active{
 #linkedin{
     position: relative;
     top: 75px;
+}
+
+#abtVM{
+    color: #f15413;
 }
