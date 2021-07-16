@@ -194,13 +194,13 @@ button:active{
 
 .aboutGrid{
     display: grid;
-    grid-template-columns: .5fr 1fr;
+    grid-template-columns: .5fr .5fr 1fr;
     margin-bottom: 10%;
     margin-top: 12%;
 }
 
 .aboutGrid img{
-    width: 400px;
+    width: 450px;
 }
 
 .aboutGrid a{
