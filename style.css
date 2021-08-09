@@ -265,7 +265,7 @@ button:active{
     margin: 0 auto;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    text-align: center;
+   /* text-align: center; */
 }
 
 .animGrid{
